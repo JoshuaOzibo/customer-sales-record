@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customers credit records</title>
+    <link rel="stylesheet" href="/custom.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+</head>
+<body>
+    <div class="container-1">
+        <form id="my-form">
+            <h3>ITEMS <span>BOUGHT</span> ON CREDIT<i id="bought" class="fas fa-cart-arrow-down"></i></h3>
+            <div class="form-group">
+                <label>Name:</label>
+                <input id="name" class="form form-control" type="text" placeholder="Name:">
+            </div>
+            <div class="form-group">
+                <label>Product:</label>
+                <input id="product" class="form form-control" type="text" placeholder="Product:">
+            </div>
+            <div class="form-group">
+                <label>Price:</label>
+                <input id="price" class="form form-control" type="text" placeholder="Price:">
+            </div>
+            <div class="form-group">
+                <input id="btn" class="btn btn-danger" type="submit" value="ADD TO LIST">
+            </div>
+        </form>
+    </div>
+
+    <div class="container-2">
+        <table class="table table-striped">
+            <tr>
+                <th>NAME <i class="fas far fa-user-circle"></i></th>
+                <th>PRODUCT <i class="fas fa-gift"></i></th>
+                <th>PRICE <i class="fas fa-dollar-sign"></i></th>
+                <th>DATE <i class="fas fas fa-user-clock"></i></th>
+            </tr>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="/custom.js"></script>
+</body>
+</html>
